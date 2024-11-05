@@ -1,8 +1,23 @@
-# React + Vite
+# React BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **BMI Calculator** built with **React** and **Tailwind CSS**. This application allows users to calculate their **Body Mass Index (BMI)** by entering their weight and height. It also categorizes the result into **Underweight**, **Normal weight**, **Overweight**, or **Obesity**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Input Fields**: Users can enter their weight (kg) and height (cm).
+- **BMI Calculation**: Automatically calculates BMI based on the provided weight and height.
+- **BMI Category**: Displays the BMI category (Underweight, Normal weight, Overweight, Obesity).
+- **Responsive Design**: Built with **Tailwind CSS** for a mobile-friendly and responsive interface.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for designing modern and responsive UIs.
+- **JavaScript**: Handles the BMI calculation and logic.
+
+
+## Deployment
+
+This project is deployed on Render.
+
+https://react-bmi-calc.onrender.com
