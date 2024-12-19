@@ -61,15 +61,7 @@ const BMICalculator = () => {
         </div>
       )}
 
-      <div className="mt-6 bg-white p-4 rounded-lg shadow-md w-full max-w-md">
-        <h2 className="text-lg font-bold mb-2">BMI Categories</h2>
-        <ul className="list-disc pl-5">
-          <li className="text-green-500">Underweight: &lt; 18.5</li>
-          <li className="text-green-500">Normal weight: 18.5 – 24.9</li>
-          <li className="text-yellow-500">Overweight: 25 – 29.9</li>
-          <li className="text-red-500">Obesity: ≥ 30</li>
-        </ul>
-      </div>
+      
 
       <footer className="mt-6 text-sm text-gray-600">
         Copyright &copy; {new Date().getFullYear()} Dhanya K.R
